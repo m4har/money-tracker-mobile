@@ -1,0 +1,6 @@
+projectKey=m4har-testing-react
+serverUrl=https://sonarqube.playcourt.id
+serverVersion=7.9.3.33349
+dashboardUrl=https://sonarqube.playcourt.id/dashboard?id=m4har-testing-react
+ceTaskId=AXMLH-SzrsRwRWxpik4M
+ceTaskUrl=https://sonarqube.playcourt.id/api/ce/task?id=AXMLH-SzrsRwRWxpik4M
