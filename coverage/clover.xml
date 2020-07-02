@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1593614643906" clover="3.2.0">
-  <project timestamp="1593614643906" name="All files">
-    <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="5" elements="18" coveredelements="17" complexity="0" loc="11" ncloc="11" packages="2" files="5" classes="5"/>
+<coverage generated="1593681048320" clover="3.2.0">
+  <project timestamp="1593681048320" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="8" elements="30" coveredelements="29" complexity="0" loc="20" ncloc="20" packages="4" files="8" classes="8"/>
     <package name="money">
       <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <file name="App.tsx" path="/Users/mahardicka/Documents/project/money/App.tsx">
@@ -11,27 +11,51 @@
         <line num="79" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="money.src">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/mahardicka/Documents/project/money/src/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="money.src.routes">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/mahardicka/Documents/project/money/src/routes/index.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="money.src.screens.home">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
       <file name="Daily.tsx" path="/Users/mahardicka/Documents/project/money/src/screens/home/Daily.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
       </file>
       <file name="Monthly.tsx" path="/Users/mahardicka/Documents/project/money/src/screens/home/Monthly.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
       </file>
       <file name="Weekly.tsx" path="/Users/mahardicka/Documents/project/money/src/screens/home/Weekly.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
       </file>
       <file name="Yearly.tsx" path="/Users/mahardicka/Documents/project/money/src/screens/home/Yearly.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/Users/mahardicka/Documents/project/money/src/screens/home/index.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
       </file>
     </package>
   </project>
