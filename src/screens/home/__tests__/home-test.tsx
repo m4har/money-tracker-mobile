@@ -2,10 +2,10 @@ import 'react-native';
 import React from 'react';
 import {render} from '@testing-library/react-native';
 
-import Daily from '../Daily';
-import Monthly from '../Monthly';
-import Weekly from '../Weekly';
-import Yearly from '../Yearly';
+import Daily from 'screens/home/Daily';
+import Monthly from 'screens/home/Monthly';
+import Weekly from 'screens/home/Weekly';
+import Yearly from 'screens/home/Yearly';
 
 it('renders correctly Daily', async () => {
   render(<Daily />);

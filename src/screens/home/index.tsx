@@ -4,10 +4,10 @@ import {
   MaterialTopTabBarOptions,
 } from '@react-navigation/material-top-tabs';
 
-import Daily from './Daily';
-import Monthly from './Monthly';
-import Weekly from './Weekly';
-import Yearly from './Yearly';
+import Daily from 'screens/home/Daily';
+import Monthly from 'screens/home/Monthly';
+import Weekly from 'screens/home/Weekly';
+import Yearly from 'screens/home/Yearly';
 
 const tabBarOptions: MaterialTopTabBarOptions = {
   style: {

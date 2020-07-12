@@ -5,7 +5,7 @@ import {
   StackNavigationOptions,
 } from '@react-navigation/stack';
 
-import HomeTab from '../screens/home';
+import HomeTab from 'screens/home';
 const screenOptions: StackNavigationOptions = {
   headerStyle: {
     backgroundColor: '#65BCBF',
